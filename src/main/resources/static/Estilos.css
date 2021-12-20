@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 3, 2021, 11:13:56 AM
+    Author     : aduo
+*/
+h1{
+    text-align: center;
+    font-size: 20%;
+    color: blanchedalmond;
+}
+.foto{
+    display: flex;
+    align-content: center;
+     background-image:url(/libros.jpg);
+     
+}
+.contenedor{
+    display: flex;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    }
+    .centrado{
+    text-align: center;
+    text-decoration: black;
+    text-decoration-style: double;
+    }
+    .card{
+    text-align: justify;
+    }
+    .alineado{
+    display: flex;
+    align-content: stretch;
+    }
+    
+    .columna{
+       display: flex;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+      display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
